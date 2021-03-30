@@ -79,7 +79,6 @@ Data[,c(4,5,9:121)] <- scale(Data[,c(4,5,9:121)], center=TRUE, scale=TRUE)
 Final <- expand.grid(regions = regions_lobes$regions,
   group = c("M1", "M2", "M3", "F1", "F2", "F3"), metric = c("CBF", "Vol"))
 Final["lobes"] <- rep(regions_lobes$lobes, times=12)
-Final["effect"] <- rep(NA, times=672)
 
 #Run Models
 w = 1
