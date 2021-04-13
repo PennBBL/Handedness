@@ -1,7 +1,7 @@
 ### Create effect size plots for right versus left handers on brain regions,
 ### controlling for age, age^2, QA
 ### Zachary Heffernan
-### April 5, 2021
+### April 13, 2021
 
 #Set Working Directory & Import Data
 setwd("/Users/zsheff/Documents/Handedness")
